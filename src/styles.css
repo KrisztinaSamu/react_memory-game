@@ -1,0 +1,33 @@
+/***** General style *****/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #b6d4bc;
+    user-select: none;
+  }
+  
+  /***** App style *****/
+  
+  .App {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .App {
+    font-family: "Mulish", sans-serif;
+    text-align: center;
+    width: 98vw;
+    min-width: 18rem;
+    max-width: 50rem;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    flex-flow: column;
+    flex-wrap: wrap;
+  }
+  
