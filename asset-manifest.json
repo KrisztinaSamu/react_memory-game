@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react_memory-game/static/css/main.d4a4df34.chunk.css",
+    "main.js": "/react_memory-game/static/js/main.bb2f0bb5.chunk.js",
+    "main.js.map": "/react_memory-game/static/js/main.bb2f0bb5.chunk.js.map",
+    "runtime-main.js": "/react_memory-game/static/js/runtime-main.d916b376.js",
+    "runtime-main.js.map": "/react_memory-game/static/js/runtime-main.d916b376.js.map",
+    "static/js/2.2b6e2a52.chunk.js": "/react_memory-game/static/js/2.2b6e2a52.chunk.js",
+    "static/js/2.2b6e2a52.chunk.js.map": "/react_memory-game/static/js/2.2b6e2a52.chunk.js.map",
+    "static/js/3.4e093497.chunk.js": "/react_memory-game/static/js/3.4e093497.chunk.js",
+    "static/js/3.4e093497.chunk.js.map": "/react_memory-game/static/js/3.4e093497.chunk.js.map",
+    "index.html": "/react_memory-game/index.html",
+    "static/css/main.d4a4df34.chunk.css.map": "/react_memory-game/static/css/main.d4a4df34.chunk.css.map",
+    "static/js/2.2b6e2a52.chunk.js.LICENSE.txt": "/react_memory-game/static/js/2.2b6e2a52.chunk.js.LICENSE.txt",
+    "static/media/beach.d2781dd9.jpg": "/react_memory-game/static/media/beach.d2781dd9.jpg",
+    "static/media/coffee.2f1e6194.jpg": "/react_memory-game/static/media/coffee.2f1e6194.jpg",
+    "static/media/cupcakes.f3d3c105.jpg": "/react_memory-game/static/media/cupcakes.f3d3c105.jpg",
+    "static/media/roses.cd480d45.jpg": "/react_memory-game/static/media/roses.cd480d45.jpg",
+    "static/media/tree.a06de9a5.jpg": "/react_memory-game/static/media/tree.a06de9a5.jpg",
+    "static/media/waterfall.19b7aef7.jpg": "/react_memory-game/static/media/waterfall.19b7aef7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d916b376.js",
+    "static/js/2.2b6e2a52.chunk.js",
+    "static/css/main.d4a4df34.chunk.css",
+    "static/js/main.bb2f0bb5.chunk.js"
+  ]
+}
