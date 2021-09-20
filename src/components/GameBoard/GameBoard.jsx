@@ -20,7 +20,6 @@ export default function GameBoard({
   return (
     <Gameboard>
       {cards.map(({ img, id }, index) => {
-        //kártyalap megfordítása css-sel
         let flipCard;
         flipCard = false;
         if (isActive) {

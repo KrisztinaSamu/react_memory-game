@@ -62,9 +62,16 @@
     min-height: 5.6rem;
   }
 }
+
 @media (max-width: 576px) {
   .memo-card {
     min-width: 4.9rem;
     min-height: 4.72rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .memo-card {
+    min-height: 3.2rem;
   }
 }

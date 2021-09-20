@@ -46,8 +46,9 @@ export default function App() {
     setTimer(0);
     setOpenCard([]);
     setMatched([]);
-    setCards(shuffleCards(cardsArray.concat(cardsArray)));
     setIsActive(true);
+    setCards(shuffleCards(cardsArray.concat(cardsArray)));
+    
   };
 
   const handleGameStart = () => {
@@ -127,7 +128,14 @@ export default function App() {
   // Game restart
   const handleReStart = () => {
     setShowModal(false);
-    gameStart();
+    setTimer(0);
+    setOpenCard([]);
+    setMatched([]);
+    setIsActive(true);
+    setTimeout(() => {
+      setCards(shuffleCards(cardsArray.concat(cardsArray)));
+    }, 1000);
+    
   };
 
   return (
@@ -141,7 +149,7 @@ export default function App() {
             timer={timer}
             showModal={showModal}
             parentCallback={callbackFunction}
-            reStart={gameStart}
+            reStart={handleReStart}
           />
         }
         date={<DateAndTime />}

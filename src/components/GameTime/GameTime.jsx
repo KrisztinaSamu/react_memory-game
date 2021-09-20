@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import ButtonComponent from "../ButtonComponent/ButtonComponent";
+import ButtonC from "../Button/Button";
 import styled from "styled-components";
 
 const TimerWrapper = styled.div``;
@@ -43,7 +43,7 @@ export default function GameTime({
         <Time>{formatTime()}</Time>
       </TimerRow>
       <ButtonRow>
-        <ButtonComponent name="Restart" reStart={reStart} />
+        <ButtonC name="Restart" reStart={reStart} />
       </ButtonRow>
     </TimerWrapper>
   );

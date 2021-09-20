@@ -27,7 +27,7 @@ const Wrapper = styled.div`
   }
 `;
 
-export default function ButtonComponent({ reStart, name }) {
+export default function ButtonC({ reStart, name }) {
   const classes = useStyles();
   return (
     <Wrapper>
